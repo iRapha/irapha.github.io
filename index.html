@@ -109,6 +109,44 @@
                 width: 100%;
                 text-align: center;
             }
+            .project {
+                height: 188px;
+                width: 100%;
+                display:block;
+            }
+            .project-indented {
+                height: 188px;
+                width: 100%;
+                display:block;
+                margin-left: 85px;
+                position: absolute;
+                top: -40px;
+            }
+            .project-indented-wrapper {
+                position: relative;
+                height: 110px;
+            }
+            .project-image {
+                height: 100%;
+                display:inline-block;
+            }
+            .project-desc {
+                display:inline-block;
+                vertical-align: top;
+                margin-top: 52px;
+                max-width: calc(100% - 177px);
+                padding-left: 5px;
+                height: 80px;
+                overflow: hidden;
+                font-size: 18px;
+            }
+            #all-projects {
+                position:relative;
+            }
+            .project-title {
+                font-family: 'Lato-Light';
+                font-size: 20px;
+            }
         </style>
     </head>
 
@@ -242,6 +280,59 @@
                     </div>
 
                     <h1>PROJECTS</h1>
+
+
+                    <div id="all-projects">
+                        <div class="project">
+                            <div class="project-image">
+                                <img src="images/ConnWars.png" style="height:100%;" />
+                            </div>
+
+                            <div class="project-desc">
+                                <span class="project-title">ConnWars - Ludum Dare 30</span><br/>
+                                A web game created in under 72h as a part of a Game Jam. Playable online.
+                            </div>
+                        </div>
+
+                        <div class="project-indented-wrapper">
+                            <div class="project-indented">
+                                <div class="project-image">
+                                    <img src="images/2048ForLinux.png" style="height:100%;" />
+                                </div>
+
+                                <div class="project-desc">
+                                    <span class="project-title">2048 For Linux</span><br/>
+                                    Port of the famous web and iOS game to the Linux terminal. Available as ppa.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-image">
+                                <img src="images/2048ForLinux.png" style="height:100%;" />
+                            </div>
+
+                            <div class="project-desc">
+                                <span class="project-title">Opinee</span><br/>
+                                Prototype for a social network in which users shared opinions (whether they like/dislike/why). Involved work with database design, interface and management, as well as the creation of all front and back-end logic, the user interface and experience.
+                            </div>
+                        </div>
+
+                        <div class="project-indented-wrapper">
+                            <div class="project-indented">
+                                <div class="project-image">
+                                    <img src="images/BuzzBot.png" style="height:100%;" />
+                                </div>
+
+                                <div class="project-desc">
+                                    <span class="project-title">Buzz Bot</span><br/>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br/>
 
                     <div class="button-wrapper">
                         <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
