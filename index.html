@@ -37,16 +37,68 @@
             #img-wrapper {
                 position: relative;
                 width: 215px;
-                height: 241px;
+                height: 201px;
+                display: inline-block;
             }
             #header {
                 min-height: 120px;
-                color: white;
+                position: relative;
             }
             #header-links {
                 font-family: "Lato-Medium" sans-serif;
-                position: relative;
+                position: absolute;
                 bottom: 0;
+                right: 0;
+                margin-bottom: 12px;
+            }
+            a.text-links, a.text-links:visited {
+                text-decoration: none;
+                color: white;
+            }
+            a.text-links:hover {
+                color: #28d264;
+            }
+            #icons {
+                color: #555;
+                display: inline-block;
+                width: 100%;
+            }
+            a.text-links.icon, a.text-links.icon:visited {
+                text-decoration: none;
+                color: #555;
+            }
+            #name-wrapper {
+                color: black;
+                font-family: "Lato-Medium";
+                font-size: 40px;
+                width: 581px;
+                height: 231px;
+                display: inline-block;
+                vertical-align: top;
+                position: relative;
+            }
+            #name {
+                position: absolute;
+                top: calc(50% - 55px);
+                padding-left: 15px;
+            }
+            .button {
+                border-style: solid;
+                border-width: 2px;
+                border-color: #28d264;
+                color: #28d264;
+                font-family: "Lato-Light";
+                font-size: 22px;
+                border-radius: 3px;
+                text-align: center;
+                cursor: pointer;
+                padding: 7px;
+            }
+            #contact-button {
+                width: 150px;
+            }
+            .paragraph {
+                font-size: 18px;
             }
         </style>
     </head>
@@ -57,13 +109,21 @@
 
             <div id="header" class="margins" align="right">
                 <div id="header-links">
-                    about me
+                    <a class="text-links" href="http://raphagl.com">
+                        about me
+                    </a>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    projects
+                    <a class="text-links" href="http://raphagl.com/projects">
+                        projects
+                    </a>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    r&eacute;sum&eacute;
+                    <a class="text-links" href="http://raphagl.com/RaphaelGontijoLopes.pdf">
+                        r&eacute;sum&eacute;
+                    </a>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    contact
+                    <a class="text-links" href="http://raphagl.com/contact">
+                        contact
+                    </a>
                 </div>
             </div>
 
@@ -74,22 +134,72 @@
                         <img id="profile" src="images/profile.png" />
                     </div>
 
+                    <div id="name-wrapper">
+                        <div id="name">
+                            Raphael Gontijo Lopes
+                        </div>
+                    </div>
 
-                    <br />
-                    <br /><br />
+                    <div class="paragraph">
+                        Hey! I'm a young software developer, originally from Brazil, currently living in Atlanta, where
+                        I'm pursuing a Computer Science degree at the Georgia Institute of Technology.<br/><br/>
+                        My interests cover many areas of CS: I'm fascinated by everything from A.I., Machine Learning, and Game Developemnt
+                        to Computer Vision, Web Development, and Visualization.<br/><br/>
+                        But most of all I love two things: to make stuff and to learn how to make stuff.<br/><br/>
+                        I also like a lot of non-CS stuff, such as YoYo-ing, drawing/art, discussing politics and philosophy, travelling, playing video games, etc.<br/><br/>
+                        Feel free to get in touch with me!
+                    </div>
 
+                    <br/><br/>
 
-                    Site under construction
-                    For now, you can access my resume <a href="http://bit.ly/1sCM4IO">here</a>
+                    <div id="icons" align="center">
 
-                    <i class="fa fa-twitter fa-4x"></i>
-                    <i class="fa fa-instagram fa-4x"></i>
-                    <i class="fa fa-github fa-4x"></i>
-                    <i class="fa fa-facebook-square fa-4x"></i>
-                    <i class="fa fa-linkedin-square fa-4x"></i>
-                    <i class="fa fa-stack-overflow fa-4x"></i>
+                        <a class="text-links icon" href="http://twitter.com/iRaphas13">
+                            <i class="fa fa-twitter fa-3x"></i>
+                        </a>
 
-                    <i class="fa fa-send fa-4x"></i>
+                        &nbsp;
+
+                        <a class="text-links icon" href="http://facebook.com/raphaelgontijolopes">
+                            <i class="fa fa-facebook-square fa-3x"></i>
+                        </a>
+
+                        &nbsp;
+
+                        <a class="text-links icon" href="http://instagram.com/iraphael">
+                            <i class="fa fa-instagram fa-3x"></i>
+                        </a>
+
+                        &nbsp;
+
+                        <a class="text-links icon" href="http://br.linkedin.com/in/raphaelgontijolopes/">
+                            <i class="fa fa-linkedin-square fa-3x"></i>
+                        </a>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        <a class="text-links icon" href="http://github.com/irapha">
+                            <i class="fa fa-github fa-3x"></i>
+                        </a>
+
+                        &nbsp;
+
+                        <a class="text-links icon" href="http://stackoverflow.com/users/3783526/raphaelgontijolopes">
+                            <i class="fa fa-stack-overflow fa-3x"></i>
+                        </a>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
+                            <a href="http://raphagl.com/contact" style="text-decoration:none;">
+                                <div id="contact-button" class="button" style="display:inline-block;">
+                                    CONTACT ME
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
 
 
 
