@@ -2,14 +2,101 @@
     <head>
         <title>Raphael Gontijo Lopes</title>
         <link rel="icon" type="image/png" href="images/favicon.ico" />
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-8">
+
+        <link rel="stylesheet" type="text/css" href="importFonts.css" />
         <style type="text/css">
+            body {
+                font-family: "Lato-Thin" sans-serif;
+                background-image: url("images/background.jpg");
+                background-attachment: fixed;
+                background-repeat: repeat-x;
+            }
+            #wrapper {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height:100%;
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+            .margins {
+                width: 800px;
+            }
+            #white-background {
+                width: 100%;
+                min-height: 100%;
+                background-color: white;
+            }
+            #profile {
+                position: absolute;
+                top: -40px;
+            }
+            #img-wrapper {
+                position: relative;
+                width: 215px;
+                height: 241px;
+            }
+            #header {
+                min-height: 120px;
+                color: white;
+            }
+            #header-links {
+                font-family: "Lato-Medium" sans-serif;
+                position: relative;
+                bottom: 0;
+            }
         </style>
     </head>
 
     <body>
-        Site under construction
-        For now, you can access my resume <a href="http://bit.ly/1sCM4IO">here</a>
 
-        <img src="images/profile.png" />
+        <div id="wrapper" align="center">
+
+            <div id="header" class="margins" align="right">
+                <div id="header-links">
+                    about me
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    projects
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    r&eacute;sum&eacute;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    contact
+                </div>
+            </div>
+
+
+            <div id="white-background">
+                <div class="margins" align="left">
+                    <div id="img-wrapper">
+                        <img id="profile" src="images/profile.png" />
+                    </div>
+
+
+                    <br />
+                    <br /><br />
+
+
+                    Site under construction
+                    For now, you can access my resume <a href="http://bit.ly/1sCM4IO">here</a>
+
+                    <i class="fa fa-twitter fa-4x"></i>
+                    <i class="fa fa-instagram fa-4x"></i>
+                    <i class="fa fa-github fa-4x"></i>
+                    <i class="fa fa-facebook-square fa-4x"></i>
+                    <i class="fa fa-linkedin-square fa-4x"></i>
+                    <i class="fa fa-stack-overflow fa-4x"></i>
+
+                    <i class="fa fa-send fa-4x"></i>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
     </body>
 </html>
