@@ -13,6 +13,8 @@
                 background-image: url("images/background.jpg");
                 background-attachment: fixed;
                 background-repeat: repeat-x;
+                padding: 0;
+                margin: 0;
             }
             #wrapper {
                 position: absolute;
@@ -41,7 +43,7 @@
                 display: inline-block;
             }
             #header {
-                min-height: 120px;
+                min-height: 45px;
                 position: relative;
             }
             #header-links {
@@ -97,8 +99,15 @@
             #contact-button {
                 width: 150px;
             }
+            #view-projects-button {
+                width: 240px;
+            }
             .paragraph {
                 font-size: 22px;
+            }
+            .button-wrapper {
+                width: 100%;
+                text-align: center;
             }
         </style>
     </head>
@@ -121,7 +130,7 @@
                         r&eacute;sum&eacute;
                     </a>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a class="text-links" href="http://raphagl.com/contact">
+                    <a class="text-links" href="mailto:raphaelgontijolopes@gmail.com">
                         contact
                     </a>
                 </div>
@@ -192,9 +201,9 @@
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
                         <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
-                            <a href="http://raphagl.com/contact" style="text-decoration:none;">
+                            <a href="mailto:raphaelgontijolopes@gmail.com" style="text-decoration:none;">
                                 <div id="contact-button" class="button" style="display:inline-block;">
-                                    CONTACT ME
+                                    EMAIL ME
                                 </div>
                             </a>
                         </div>
@@ -203,11 +212,48 @@
 
 
                     <h1>SKILLS</h1>
+                    <div class="paragraph">
+                        <span style="font-family:'Lato-Light';">Programming Languages: </span>
+                        C, JavaScript, Python, HTML/CSS, PHP, SQL
+                        <br/>
+                        <span style="font-family:'Lato-Light';">External Libraries: </span>
+                        ncurses, Pygame, web.py, jQuery
+                        <br/>
+                        <span style="font-family:'Lato-Light';">OS Familiarity and preference: </span>
+                        Linux > MacOS > Windows
+                        <br/>
+                        <span style="font-family:'Lato-Light';">Spoken Languages: </span>
+                        English (fluent), Portuguese (fluent / native speaker)
+                        <br/>
+                        <span style="font-family:'Lato-Light';">Software: </span>
+                        Git, PhotoShop, Audacity/GarageBand/LogicPro, iMovie/FinalCutPro
+                    </div>
+
+                    <br/>
+
+                    <div class="button-wrapper">
+                        <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
+                            <a href="RaphaelGontijoLopes.pdf" style="text-decoration:none;">
+                                <div id="contact-button" class="button" style="display:inline-block;">
+                                    GET R&Eacute;SUM&Eacute;
+                                </div>
+                            </a>
+                        </div>
+                    </div>
 
                     <h1>PROJECTS</h1>
 
-                    //get resume and view all projects button
+                    <div class="button-wrapper">
+                        <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
+                            <a href="http://raphagl.com/projects" style="text-decoration:none;">
+                                <div id="view-projects-button" class="button" style="display:inline-block;">
+                                    VIEW ALL PROJECTS
+                                </div>
+                            </a>
+                        </div>
+                    </div>
 
+                    <br/><br/>
 
                 </div>
             </div>
