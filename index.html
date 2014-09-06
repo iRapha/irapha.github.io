@@ -69,6 +69,9 @@
                 text-decoration: none;
                 color: #555;
             }
+            a.text-links.icon:hover {
+                color: #28d264;
+            }
             #name-wrapper {
                 color: black;
                 font-family: "Lato-Medium";
@@ -130,13 +133,23 @@
                 height: 100%;
                 display:inline-block;
             }
-            .project-desc {
+            .project-desc.non-indented {
                 display:inline-block;
                 vertical-align: top;
-                margin-top: 52px;
-                max-width: calc(100% - 177px);
+                margin-top: 47px;
+                width: calc(100% - 177px - 46px);
                 padding-left: 5px;
-                height: 80px;
+                height: 93px;
+                overflow: hidden;
+                font-size: 18px;
+            }
+            .project-desc.indented {
+                display:inline-block;
+                vertical-align: top;
+                margin-top: 45px;
+                width: calc(100% - 177px - 46px - 85px);
+                padding-left: 5px;
+                height: 93px;
                 overflow: hidden;
                 font-size: 18px;
             }
@@ -146,6 +159,30 @@
             .project-title {
                 font-family: 'Lato-Light';
                 font-size: 20px;
+            }
+            .project-page-button {
+                position:relative;
+                vertical-align: top;
+                display:inline-block;
+                width: 36px;
+                height:100%;
+            }
+            .view-project {
+                width: 22px;
+                height:23px;
+                border-radius: 23px;
+                margin-left: 5px;
+                margin-top: 70px;
+                line-height: 21px;
+                padding-left:9px;
+            }
+            #footer {
+                height: 50px;
+                width: 100%;
+                text-align: center;
+                font-family: "Nilland-SmallCaps";
+                font-size: 15px;
+                padding-top: 18px;
             }
         </style>
     </head>
@@ -288,9 +325,17 @@
                                 <img src="images/ConnWars.png" style="height:100%;" />
                             </div>
 
-                            <div class="project-desc">
+                            <div class="project-desc non-indented">
                                 <span class="project-title">ConnWars - Ludum Dare 30</span><br/>
-                                A web game created in under 72h as a part of a Game Jam. Playable online.
+                                A web game designed and built in under 72h as a part of the ludum dare Game Jam. Playable online.
+                            </div>
+
+                            <div class="project-page-button">
+                                <a href="http://raphagl.com/projects/thisone" style="text-decoration:none;">
+                                    <div class="button view-project" style="display:inline-block;">
+                                        >
+                                    </div>
+                                </a>
                             </div>
                         </div>
 
@@ -300,21 +345,37 @@
                                     <img src="images/2048ForLinux.png" style="height:100%;" />
                                 </div>
 
-                                <div class="project-desc">
+                                <div class="project-desc indented">
                                     <span class="project-title">2048 For Linux</span><br/>
-                                    Port of the famous web and iOS game to the Linux terminal. Available as ppa.
+                                    Port of the famous web and iOS game to the Linux terminal using C and ncurses (library). Available as a ppa.
+                                </div>
+
+                                <div class="project-page-button">
+                                    <a href="http://raphagl.com/projects/thisone" style="text-decoration:none;">
+                                        <div class="button view-project" style="display:inline-block;">
+                                            >
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="project">
                             <div class="project-image">
-                                <img src="images/2048ForLinux.png" style="height:100%;" />
+                                <img src="images/opinee.png" style="height:100%;" />
                             </div>
 
-                            <div class="project-desc">
+                            <div class="project-desc non-indented">
                                 <span class="project-title">Opinee</span><br/>
-                                Prototype for a social network in which users shared opinions (whether they like/dislike/why). Involved work with database design, interface and management, as well as the creation of all front and back-end logic, the user interface and experience.
+                                Prototype of a fully-featured social network in which users shared opinions on certain topics (like/dislike/why).
+                            </div>
+
+                            <div class="project-page-button">
+                                <a href="http://raphagl.com/projects/thisone" style="text-decoration:none;">
+                                    <div class="button view-project" style="display:inline-block;">
+                                        >
+                                    </div>
+                                </a>
                             </div>
                         </div>
 
@@ -324,20 +385,69 @@
                                     <img src="images/BuzzBot.png" style="height:100%;" />
                                 </div>
 
-                                <div class="project-desc">
+                                <div class="project-desc indented">
                                     <span class="project-title">Buzz Bot</span><br/>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                                    Scripts and various API implementations for the creation of Hubot responses to commands such as "buzz image me < query >" and "buzz /r/dataisbeautiful".
+                                </div>
+
+                                <div class="project-page-button">
+                                    <a href="http://raphagl.com/projects/thisone" style="text-decoration:none;">
+                                        <div class="button view-project" style="display:inline-block;">
+                                            >
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="project">
+                            <div class="project-image">
+                                <img src="images/ensicolab.png" style="height:100%;" />
+                            </div>
+
+                            <div class="project-desc non-indented">
+                                <span class="project-title">EnsiColab</span><br/>
+                                Social network for Brazilian teachers to share videos of their lectures and receive/provide feedback to each other.
+                            </div>
+
+                            <div class="project-page-button">
+                                <a href="http://raphagl.com/projects/thisone" style="text-decoration:none;">
+                                    <div class="button view-project" style="display:inline-block;">
+                                        >
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-indented-wrapper">
+                            <div class="project-indented">
+                                <div class="project-image">
+                                    <img src="images/profile.png" style="height:100%;" />
+                                </div>
+
+                                <div class="project-desc indented">
+                                    <span class="project-title">raphagl.com</span><br/>
+                                    My personal website, designed and scripted from scratch.
+                                </div>
+
+                                <div class="project-page-button">
+                                    <a href="http://raphagl.com/projects/thisone" style="text-decoration:none;">
+                                        <div class="button view-project" style="display:inline-block;">
+                                            >
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
-                    <br/>
+                    <br/><br/><br/>
 
                     <div class="button-wrapper">
                         <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
                             <a href="http://raphagl.com/projects" style="text-decoration:none;">
-                                <div id="view-projects-button" class="button" style="display:inline-block;">
+                                <div  class="button" id="view-projects-button" style="display:inline-block;">
                                     VIEW ALL PROJECTS
                                 </div>
                             </a>
@@ -345,6 +455,10 @@
                     </div>
 
                     <br/><br/>
+
+                    <div id="footer">
+                        &#8226; Crafted in Atlanta &#8226;
+                    </div>
 
                 </div>
             </div>
