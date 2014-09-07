@@ -94,3 +94,7 @@
     font-family: "Lato-ThinItalic";
     src: url("fonts/Lato-ThinItalic.ttf");
 }
+@font-face {
+    font-family: "SmallTypeWriting";
+    src: url("fonts/SmallTypeWriting.ttf");
+}

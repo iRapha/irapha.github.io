@@ -1,16 +1,16 @@
 <html>
     <head>
         <title>Raphael Gontijo Lopes</title>
-        <link rel="icon" type="image/png" href="../images/favicon.ico" />
+        <link rel="icon" type="image/png" href="../../images/favicon.ico" />
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
         <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-8">
 
-        <link rel="stylesheet" type="text/css" href="../importFonts.css" />
+        <link rel="stylesheet" type="text/css" href="../../importFonts.css" />
         <style type="text/css">
             body {
                 font-family: "Lato-Thin" sans-serif;
-                background-image: url("../images/background.jpg");
+                background-image: url("../../images/background.jpg");
                 background-attachment: fixed;
                 background-repeat: repeat-x;
                 padding: 0;
@@ -187,6 +187,21 @@
                 font-size: 15px;
                 padding-top: 18px;
             }
+            .screenshot {
+                width: 240px;
+                height: 155px;
+                display:inline-block;
+            }
+            .code {
+                width: 100%;
+                padding: 15px;
+                background-color: #555;
+                color: white;
+                font-family: "SmallTypeWriting";
+                border-style: dashed;
+                border-width: 2px 0px 2px 0px;
+                border-color: white;
+            }
         </style>
     </head>
 
@@ -197,7 +212,7 @@
             <div id="header" class="margins" align="left">
 
                 <div id="img-wrapper">
-                    <img id="profile" src="../images/profile.png" />
+                    <img id="profile" src="../../images/profile.png" />
                 </div>
 
                 <div id="name-wrapper">
@@ -228,140 +243,87 @@
 
 
             <div id="white-background">
-                <div class="margins" align="left" style="padding-top: 25px;">
+                <div class="margins" align="left" style="padding-top: 25px; position:relative;">
 
-                    <h1>PROJECTS</h1>
+                    <div style="position:relative;">
+                        <div style="display:inline-block; position:absolute; top: 5px; right:0; height:200px;">
+                            <img src="../../images/2048ForLinux.png" style="height:100%;" />
+                        </div>
 
-                    <div class="paragraph">
-                        Click on a project to learn more about it.
+                        <h1>2048 FOR LINUX</h1>
+
+                        <div class="paragraph" style="width: 600px;">
+                            2048ForLinux is a port of the famous web and iOS game to the Linux terminal.
+                            <br/>This port was done using the C language and the ncurses C library.
+
+                            <br/>
+                            <br/>
+
+                            <div class="button-wrapper">
+                                <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
+                                    <a href="https://github.com/iRapha/2048linux" target="_blank" style="text-decoration:none;">
+                                        <div class="button" id="view-projects-button" style="display:inline-block;">
+                                            SOURCE CODE
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
+                                    <a href="https://launchpad.net/~raphaelgontijolopes/+archive/ubuntu/2048linux" target="_blank" style="text-decoration:none;">
+                                        <div class="button" id="view-projects-button" style="display:inline-block;">
+                                            LAUNCHPAD
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
 
                     <br/>
 
-                    <div id="all-projects">
-                        <div class="project">
-                            <div class="project-image">
-                                <img src="../images/ConnWars.png" style="height:100%;" />
-                            </div>
+                    <h1>DOWNLOAD AS PPA</h1>
 
-                            <div class="project-desc non-indented">
-                                <span class="project-title">ConnWars - Ludum Dare 30</span><br/>
-                                A web game designed and built in under 72h as a part of the ludum dare Game Jam. Playable online.
-                            </div>
-
-                            <div class="project-page-button">
-                                <a href="http://raphagl.com/projects/conn-wars" style="text-decoration:none;">
-                                    <div class="button view-project" style="display:inline-block;">
-                                        >
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="project-indented-wrapper">
-                            <div class="project-indented">
-                                <div class="project-image">
-                                    <img src="../images/2048ForLinux.png" style="height:100%;" />
-                                </div>
-
-                                <div class="project-desc indented">
-                                    <span class="project-title">2048 For Linux</span><br/>
-                                    Port of the famous web and iOS game to the Linux terminal using C and ncurses (library). Available as a ppa.
-                                </div>
-
-                                <div class="project-page-button">
-                                    <a href="http://raphagl.com/projects/2048-for-linux" style="text-decoration:none;">
-                                        <div class="button view-project" style="display:inline-block;">
-                                            >
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project">
-                            <div class="project-image">
-                                <img src="../images/opinee.png" style="height:100%;" />
-                            </div>
-
-                            <div class="project-desc non-indented">
-                                <span class="project-title">Opinee</span><br/>
-                                Prototype of a fully-featured social network in which users shared opinions on certain topics (like/dislike/why).
-                            </div>
-
-                            <div class="project-page-button">
-                                <a href="http://raphagl.com/projects/opinee" style="text-decoration:none;">
-                                    <div class="button view-project" style="display:inline-block;">
-                                        >
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="project-indented-wrapper">
-                            <div class="project-indented">
-                                <div class="project-image">
-                                    <img src="../images/buzzbot.png" style="height:100%;" />
-                                </div>
-
-                                <div class="project-desc indented">
-                                    <span class="project-title">Buzz Bot</span><br/>
-                                    Scripts and various API implementations for the creation of Hubot responses to commands such as "buzz image me < query >" and "buzz /r/dataisbeautiful".
-                                </div>
-
-                                <div class="project-page-button">
-                                    <a href="http://raphagl.com/projects/buzz-bot" style="text-decoration:none;">
-                                        <div class="button view-project" style="display:inline-block;">
-                                            >
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project">
-                            <div class="project-image">
-                                <img src="../images/ensicolab.png" style="height:100%;" />
-                            </div>
-
-                            <div class="project-desc non-indented">
-                                <span class="project-title">EnsiColab</span><br/>
-                                Social network for Brazilian teachers to share videos of their lectures and receive/provide feedback to each other.
-                            </div>
-
-                            <div class="project-page-button">
-                                <a href="http://raphagl.com/projects/ensicolab" style="text-decoration:none;">
-                                    <div class="button view-project" style="display:inline-block;">
-                                        >
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="project-indented-wrapper">
-                            <div class="project-indented">
-                                <div class="project-image">
-                                    <img src="../images/profile.png" style="height:100%;" />
-                                </div>
-
-                                <div class="project-desc indented">
-                                    <span class="project-title">raphagl.com</span><br/>
-                                    My personal website, designed and scripted from scratch.
-                                </div>
-
-                                <div class="project-page-button">
-                                    <a href="http://raphagl.com/projects/raphagl" style="text-decoration:none;">
-                                        <div class="button view-project" style="display:inline-block;">
-                                            >
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
+                    <div class="code">
+                        $ sudo add-apt-repository ppa:raphaelgontijolopes/2048linux
+                        <br />$ sudo apt-get update
+                        <br />$ apt-get install 2048
+                        <br />
+                        <br />to play:
+                        <br />$ 2048
                     </div>
 
-                    <br/><br/>
+                    <br/>
+
+                    <h1>WHAT I DID</h1>
+
+                    <div class="paragraph" style="width: 100%;">
+                        - Recreated from scratch the game to be played in the linux terminal.
+                        <br />- Replicated the logic of the whole game using only the game itself as a reference.
+                        <br />- Used ncurses library for ASCII graphics, and file I/O for a simple leaderboard database and save file.
+                    </div>
+
+                    <br/>
+
+                    <h1>SCREENSHOTS</h1>
+
+                    <div style="width: 100%; text-align:center;">
+                        <div class="screenshot">
+                            <img src="screenshots/scr1.png" style="width:100%; height:100%;"/>
+                        </div>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        <div class="screenshot">
+                            <img src="screenshots/scr2.png" style="width:100%; height:100%;"/>
+                        </div>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        <div class="screenshot">
+                            <img src="screenshots/scr3.png" style="width:100%; height:100%;"/>
+                        </div>
+                    </div>
 
                     <br/><br/>
 
