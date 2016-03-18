@@ -59,7 +59,7 @@
     src: url("fonts/Lato-Italic.ttf");
 }
 @font-face {
-    font-family: "Lato-Light";
+    font-family: "Lato-Light", sans-serif;
     src: url("fonts/Lato-Light.ttf");
 }
 @font-face {
