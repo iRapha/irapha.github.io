@@ -1,23 +1,23 @@
-@font-face {
-    font-family: "Nilland-Black";
-    src: url("fonts/Nilland-Black.ttf");
-}
-@font-face {
-    font-family: "Nilland-Bold";
-    src: url("fonts/Nilland-Bold.ttf");
-}
-@font-face {
-    font-family: "Nilland-ExtraBold";
-    src: url("fonts/Nilland-ExtraBold.ttf");
-}
-@font-face {
-    font-family: "Nilland-SmallCaps-Bold";
-    src: url("fonts/Nilland-SmallCaps-Bold.ttf");
-}
-@font-face {
-    font-family: "Nilland";
-    src: url("fonts/Nilland.ttf");
-}
+/* @font-face { */
+    /* font-family: "Nilland-Black"; */
+    /* src: url("fonts/Nilland-Black.ttf"); */
+/* } */
+/* @font-face { */
+    /* font-family: "Nilland-Bold"; */
+    /* src: url("fonts/Nilland-Bold.ttf"); */
+/* } */
+/* @font-face { */
+    /* font-family: "Nilland-ExtraBold"; */
+    /* src: url("fonts/Nilland-ExtraBold.ttf"); */
+/* } */
+/* @font-face { */
+    /* font-family: "Nilland-SmallCaps-Bold"; */
+    /* src: url("fonts/Nilland-SmallCaps-Bold.ttf"); */
+/* } */
+/* @font-face { */
+    /* font-family: "Nilland"; */
+    /* src: url("fonts/Nilland.ttf"); */
+/* } */
 @font-face {
     font-family: "Nilland-SmallCaps";
     src: url("fonts/Nilland-SmallCaps.ttf");
@@ -94,7 +94,7 @@
     font-family: "Lato-ThinItalic";
     src: url("fonts/Lato-ThinItalic.ttf");
 }
-@font-face {
-    font-family: "SmallTypeWriting";
-    src: url("fonts/SmallTypeWriting.ttf");
-}
+/* @font-face { */
+    /* font-family: "SmallTypeWriting"; */
+    /* src: url("fonts/SmallTypeWriting.ttf"); */
+/* } */
