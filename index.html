@@ -159,6 +159,9 @@
             #all-jobs {
                 position:relative;
             }
+            #all-research {
+                position:relative;
+            }
             .project-title {
                 font-family: 'Lato-Regular';
                 font-size: 20px;
@@ -186,6 +189,10 @@
                 font-family: "Nilland-SmallCaps";
                 font-size: 15px;
                 padding-top: 18px;
+            }
+            .inline-link {
+                text-decoration: none;
+                color: #28d264;
             }
         </style>
     </head>
@@ -228,14 +235,12 @@
                     </div>
 
                     <div class="paragraph">
-                        Hey! I'm a young Brazilian software developer currently living in Atlanta, where
+                        Hey! I'm a young Brazilian undergraduate researcher currently living in Atlanta, where
                         I'm pursuing a Computer Science degree at the Georgia Institute of Technology.<br/><br/>
-                        My interests cover many areas of CS: I'm fascinated by everything from A.I., Machine Learning, and Game Development
-                        to Computer Vision, Web Development, and Visualization.<br/><br/>
-                        But most of all I love two things: to make stuff and to learn how to make stuff.<br/><br/>
-                        With my personal projects, I learned many skills including backend development (plus some frontend), game logic dev, as well as various AI and ML techniques..<br/><br/>
-                        I am also the Internal Operations Officer for The Agency --  the AI club at GT.
-                        I also like a lot of non-CS stuff, such as YoYo-ing, drawing/art, discussing politics and philosophy, travelling, playing video games, etc.<br/><br/>
+                        My interests cover many areas of Machine Learning:
+                        generative models, computer vision, sequence learning, adversarial methods, etc.<br/><br/>
+                        I am the External Affairs Officer for <a href="gtagency.github.io" class="inline-link">The Agency</a> -- the AI club at GT.
+                        I also like a lot of non-CS stuff, such as art, politics, sailing, travelling, video games, etc.<br/><br/>
                         Feel free to get in touch with me!
                     </div>
 
@@ -317,19 +322,137 @@
                         </div>
                     </div>
 
+                    <h1>RESEARCH</h1>
+
+                    <div id="all-research">
+                        <div class="project">
+                            <div class="project-image">
+                                <img src="images/distill.png" style="height:100%;" />
+                            </div>
+
+                            <div class="project-desc non-indented">
+                                <span class="project-title">Neural Network Knowledge Distillation with No Training Data.</span><br/>
+                                Undergraduate Research poster presented at
+                                <a class="inline-link" href="https://mlatgt.blog/2017/04/13/symposium-spring17/">ML@GT
+                                  Spring 2017 Symposium</a>.
+                            </div>
+
+                            <div class="project-page-button">
+                                <a href="research/NeuralNetworkKnowledgeDistillationWithNoTrainingData.pdf" style="text-decoration:none;">
+                                    <div class="button view-project" style="display:inline-block;">
+                                        >
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-indented-wrapper">
+                            <div class="project-indented">
+                                <div class="project-image">
+                                    <img src="images/spatialtransf.png" style="height:100%;" />
+                                </div>
+
+                                <div class="project-desc non-indented">
+                                    <span class="project-title">Towards End-to-End Pose Estimation and Transfer</span><br/>
+                                    Undergraduate research oral presentation at
+                                    the GT UROP Undergraduate Research Spring
+                                    2017 <a class="inline-link" href="http://www.undergradresearch.gatech.edu/2017-symposium">Symposium</a>.
+                                </div>
+
+                                <div class="project-page-button">
+                                    <a href="https://docs.google.com/presentation/d/1J6pxIgfKcGfoow1S20pQvi4oJ5z1AQkjEU4UsDeGLqI/edit?usp=sharing" style="text-decoration:none;">
+                                        <div class="button view-project" style="display:inline-block;">
+                                            >
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-image">
+                                <img src="images/speech.png" style="height:100%;" />
+                            </div>
+
+                            <div class="project-desc non-indented">
+                                <span class="project-title">Leveraging Linguistic Structure For Unsupervised Acoustic Modeling</span><br/>
+                                Research poster presented at
+                                <a class="inline-link" href="https://mlatgt.blog/2017/04/13/symposium-spring17/">ML@GT
+                                  Spring 2017 Symposium</a>.
+                            </div>
+
+                            <div class="project-page-button">
+                                <a href="research/LeveragingLinguisticStructureForUnsupervisedAcousticModeling.jpg" style="text-decoration:none;">
+                                    <div class="button view-project" style="display:inline-block;">
+                                        >
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br/><br/>
+
                     <h1>WORK EXPERIENCE</h1>
 
                     <div id="all-jobs">
-                          <div class="project">
-                              <div class="project-image">
-                                  <img src="images/google.png" style="height:100%;" />
-                              </div>
 
-                              <div class="project-desc non-indented">
-                                  <span class="project-title">Google Software Engineer EP Internship - Summer 2015</span><br/>
-                                  My current internship for the Summer of 2015, at the Google Analytics team in Mountain View, CA.
-                              </div>
-                          </div>
+                        <br/>
+                        <div class="project-indented-wrapper">
+                            <div class="project-indented">
+                                <div class="project-image">
+                                    <img src="images/msft.png" style="height:100%;" />
+                                </div>
+
+                                <div class="project-desc non-indented">
+                                    <span class="project-title">Microsoft Software Engineer Internship - Summer 2017</span><br/>
+                                    My internship for the Summer of 2017, at the
+                                    Azure Service Fabric team in Redmond, WA.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-image">
+                                <img src="images/ubicomp.png" style="height:100%;" />
+                            </div>
+
+                            <div class="project-desc non-indented">
+                                <span class="project-title">GT Ubicomp Lab - Fall 2016, Spring 2017</span><br/>
+                                Undergraduate Research under
+                                <a class="inline-link" href="http://www.cc.gatech.edu/home/thad/">Dr. Starner</a>,
+                                working on developing novel machine learning
+                                architectures for fine-grained image
+                                classification, pose estimation and transfer,
+                                and image sequence generation.
+                            </div>
+                        </div>
+
+                        <div class="project-indented-wrapper">
+                            <div class="project-indented">
+                                <div class="project-image">
+                                    <img src="images/google-new.png" style="height:100%;" />
+                                </div>
+
+                                <div class="project-desc non-indented">
+                                    <span class="project-title">Google Software Engineer SWE Internship - Summer 2016</span><br/>
+                                    My internship for the Summer of 2016, at the
+                                    Google Adwords Reporting team in Mountain View, CA.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-image">
+                                <img src="images/google.png" style="height:100%;" />
+                            </div>
+
+                            <div class="project-desc non-indented">
+                                <span class="project-title">Google Software Engineer EP Internship - Summer 2015</span><br/>
+                                My internship for the Summer of 2015, at the
+                                Google Analytics Engineering Productivity
+                                team in Mountain View, CA.
+                            </div>
                         </div>
 
                         <div class="project-indented-wrapper">
@@ -340,10 +463,13 @@
 
                                 <div class="project-desc non-indented">
                                     <span class="project-title">ADAM Lab - Fall 2015</span><br/>
-                                    Undergraduate Research assitmanship, web/backend development for the <a href="http://adamlab.gatech.edu/?page_id=711">Drawing Apprentice team</a>.
+                                    Undergraduate Research assitmanship,
+                                    web/backend development for the 
+                                    <a class="inline-link" href="http://adamlab.gatech.edu/?page_id=711">Drawing Apprentice team</a>.
                                 </div>
                             </div>
                         </div>
+                    </div>
 
                     <br/><br/>
 
@@ -351,7 +477,28 @@
 
                     <div id="all-projects">
                         
-                        <br/>
+                        <div class="project">
+                            <div class="project-image">
+                                <img src="images/bzm.png" style="height:100%;" />
+                            </div>
+
+                            <div class="project-desc non-indented">
+                                <span class="project-title">Buzzmobile</span><br/>
+                                Team Lead for an autonomous replica of the
+                                ramblin' wreck, used as a parade float in
+                                Georgia Tech's Homecoming parade. Developed
+                                entirely in pyROS for <a class="inline-link" href="gtagency.github.io">The Agency</a>.
+                            </div>
+
+                            <div class="project-page-button">
+                                <a href="https://github.com/gtagency/buzzmobile" style="text-decoration:none;">
+                                    <div class="button view-project" style="display:inline-block;">
+                                        >
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
                         <div class="project-indented-wrapper">
                             <div class="project-indented">
                                 <div class="project-image">
