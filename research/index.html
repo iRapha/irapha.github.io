@@ -1,0 +1,370 @@
+<html>
+    <head>
+        <title>Raphael Gontijo Lopes</title>
+        <link rel="icon" type="image/png" href="../images/favicon.ico" />
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-8">
+
+        <link rel="stylesheet" type="text/css" href="../importFonts.css" />
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12084658-3', 'auto');
+    ga('send', 'pageview');
+        </script>
+        <style type="text/css">
+            body {
+                font-family: "Lato-Light", sans-serif;
+                background-image: url("../images/background.jpg");
+                background-attachment: fixed;
+                background-repeat: repeat-x;
+                padding: 0;
+                margin: 0;
+            }
+            #wrapper {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height:100%;
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+            .margins {
+                width: 800px;
+            }
+            #white-background {
+                width: 100%;
+                min-height: 100%;
+                background-color: white;
+            }
+            #profile {
+                position: absolute;
+                top:0px;
+                width: 100%;
+            }
+            #img-wrapper {
+                position: relative;
+                width: 168px;
+                height: 135px;
+                display: inline-block;
+                padding-right: 0;
+            }
+            #header {
+                min-height: 45px;
+                position: relative;
+            }
+            #header-links {
+                font-family: "Lato-Semibold" sans-serif;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                margin-bottom: 12px;
+            }
+            a.text-links, a.text-links:visited {
+                text-decoration: none;
+                color: white;
+            }
+            a.text-links:hover {
+                color: #28d264;
+            }
+            #icons {
+                color: #555;
+                display: inline-block;
+                width: 100%;
+            }
+            a.text-links.icon, a.text-links.icon:visited {
+                text-decoration: none;
+                color: #555;
+            }
+            a.text-links.icon:hover {
+                color: #28d264;
+            }
+            #name-wrapper {
+                color: white;
+                font-family: "Lato-Medium";
+                font-size: 28px;
+                width: 300px;
+                height: 135px;
+                display: inline-block;
+                vertical-align: bottom;
+                position: relative;
+            }
+            #name {
+                position: absolute;
+                bottom: 0;
+                padding-left: 7px;
+                padding-bottom: 8px;
+            }
+            .button {
+                border-style: solid;
+                border-width: 2px;
+                border-color: #28d264;
+                color: #28d264;
+                font-family: "Lato-Regular";
+                font-size: 22px;
+                border-radius: 3px;
+                text-align: center;
+                cursor: pointer;
+                padding: 7px;
+            }
+            #contact-button {
+                width: 150px;
+            }
+            #view-projects-button {
+                width: 240px;
+            }
+            .paragraph {
+                font-size: 22px;
+            }
+            .button-wrapper {
+                width: 100%;
+                text-align: center;
+            }
+            .project {
+                height: 188px;
+                width: 100%;
+                display:block;
+            }
+            .project-indented {
+                height: 188px;
+                width: 100%;
+                display:block;
+                margin-left: 85px;
+                position: absolute;
+                top: -40px;
+            }
+            .project-indented-wrapper {
+                position: relative;
+                height: 110px;
+            }
+            .project-image {
+                height: 100%;
+                display:inline-block;
+            }
+            .project-desc.non-indented {
+                display:inline-block;
+                vertical-align: top;
+                margin-top: 47px;
+                width: calc(100% - 177px - 46px);
+                padding-left: 5px;
+                height: 93px;
+                overflow: hidden;
+                font-size: 18px;
+            }
+            .project-desc.indented {
+                display:inline-block;
+                vertical-align: top;
+                margin-top: 45px;
+                width: calc(100% - 177px - 46px - 85px);
+                padding-left: 5px;
+                height: 93px;
+                overflow: hidden;
+                font-size: 18px;
+            }
+            #all-projects {
+                position:relative;
+            }
+            #all-jobs {
+                position:relative;
+            }
+            .project-title {
+                font-family: 'Lato-Regular';
+                font-size: 20px;
+            }
+            .project-page-button {
+                position:relative;
+                vertical-align: top;
+                display:inline-block;
+                width: 36px;
+                height:100%;
+            }
+            .view-project {
+                width: 22px;
+                height:23px;
+                border-radius: 23px;
+                margin-left: 5px;
+                margin-top: 70px;
+                line-height: 21px;
+                padding-left:9px;
+            }
+            #footer {
+                height: 50px;
+                width: 100%;
+                text-align: center;
+                font-family: "Nilland-SmallCaps";
+                font-size: 15px;
+                padding-top: 18px;
+            }
+            .inline-link {
+                text-decoration: none;
+                color: #28d264;
+            }
+            boldish {
+              font-family: 'Lato-Regular';
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div id="wrapper" align="center">
+
+            <div id="header" class="margins" align="left">
+
+                <div id="img-wrapper">
+                    <img id="profile" src="../images/profile.png" />
+                </div>
+
+                <a href="http://raphagl.com">
+                    <div id="name-wrapper">
+                        <div id="name">
+                              Raphael Gontijo Lopes
+                        </div>
+                    </div>
+                </a>
+
+
+                <div id="header-links">
+                    <a class="text-links" href="http://raphagl.com/research">
+                        research
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a class="text-links" href="http://raphagl.com/projects">
+                        projects
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a class="text-links" href="http://raphagl.com/RaphaelGontijoLopes.pdf">
+                        r&eacute;sum&eacute;
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a class="text-links" href="mailto:raphaelgontijolopes@gmail.com">
+                        contact
+                    </a>
+                </div>
+            </div>
+
+
+            <div id="white-background">
+                <div class="margins" align="left" style="padding-top: 25px;">
+
+                    <br/>
+
+                    <h1>RESEARCH</h1>
+
+                    <div class="paragraph">
+                        Click on a research project to learn more about it.
+                    </div>
+
+                    <br/>
+
+                    <div id="all-projects">
+                        
+                      <br/>
+                      <br/>
+                        <div class="project-indented-wrapper">
+                            <div class="project-indented">
+                                <div class="project-image">
+                                    <img src="../images/distill_paper.png" style="height:100%;" />
+                                </div>
+
+                                <div class="project-desc non-indented">
+                                    <span class="project-title">Data-free Knowledge Distillation for Deep Neural Networks</span><br/>
+                                    Paper submitted to NIPS 2017. Currently under review.<br/>
+                                    Pre-print coming soon to arxiv.<br/>
+                                    Source code and poster available right now!
+                                </div>
+
+                                <div class="project-page-button">
+                                    <a href="../research/replayed-distillation" style="text-decoration:none;">
+                                        <div class="button view-project" style="display:inline-block;">
+                                            >
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-image">
+                                <img src="../images/bzm_poster.png" style="height:100%;" />
+                            </div>
+
+                            <div class="project-desc non-indented">
+                                <span class="project-title">Buzzmobile - A Reactive Control Autonomous Vehicle</span><br/>
+                                Presented Buzzmobile as a poster at the Robotics Expo in the Microsoft MLADS 2017 Conference.
+                            </div>
+
+                            <div class="project-page-button">
+                                <a href="../research/BuzzmobileAReactiveControlAutonomousVehicle.pdf" style="text-decoration:none;">
+                                    <div class="button view-project" style="display:inline-block;">
+                                        >
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-indented-wrapper">
+                            <div class="project-indented">
+                                <div class="project-image">
+                                    <img src="../images/spatialtransf.png" style="height:100%;" />
+                                </div>
+
+                                <div class="project-desc non-indented">
+                                    <span class="project-title">Towards End-to-End Pose Estimation and Transfer</span><br/>
+                                    Undergraduate research oral presentation at
+                                    the GT UROP Undergraduate Research Spring
+                                    2017 <a class="inline-link" href="http://www.undergradresearch.gatech.edu/2017-symposium">Symposium</a>.
+                                </div>
+
+                                <div class="project-page-button">
+                                    <a href="https://docs.google.com/presentation/d/1J6pxIgfKcGfoow1S20pQvi4oJ5z1AQkjEU4UsDeGLqI/edit?usp=sharing" style="text-decoration:none;">
+                                        <div class="button view-project" style="display:inline-block;">
+                                            >
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-image">
+                                <img src="../images/speech.png" style="height:100%;" />
+                            </div>
+
+                            <div class="project-desc non-indented">
+                                <span class="project-title">Leveraging Linguistic Structure For Unsupervised Acoustic Modeling</span><br/>
+                                Research poster presented at
+                                <a class="inline-link" href="https://mlatgt.blog/2017/04/13/symposium-spring17/">ML@GT
+                                  Spring 2017 Symposium</a>.
+                            </div>
+
+                            <div class="project-page-button">
+                                <a href="../research/LeveragingLinguisticStructureForUnsupervisedAcousticModeling.jpg" style="text-decoration:none;">
+                                    <div class="button view-project" style="display:inline-block;">
+                                        >
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <br/><br/>
+
+                    <br/><br/>
+
+                    <div id="footer">
+                        &#8226; Crafted in Atlanta &#8226;
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>
