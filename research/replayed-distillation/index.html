@@ -317,10 +317,12 @@
                       not all of their accuracy. However, all of these
                       approaches rely on access to the original training set,
                       which might not always be possible if the network to be
-                      compressed was trained on a very large non-public
-                      dataset. In this work, we present a method for data-free
-                      knowledge distillation, which is able to compress deep
-                      models to a fraction of their size leveraging only some
+                      compressed was trained on a very large dataset, or on a
+                      dataset whose release poses privacy or safety concerns as
+                      may be the case for biometrics tasks. We present a method
+                      for data-free knowledge distillation, which is able to
+                      compress deep neural networks trained on large-scale
+                      datasets to a fraction of their size leveraging only some
                       extra metadata to be provided with a pretrained model
                       release. We also explore different kinds of metadata that
                       can be used with our method, and discuss tradeoffs
