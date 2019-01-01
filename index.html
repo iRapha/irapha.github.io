@@ -25,6 +25,10 @@
                 padding: 0;
                 margin: 0;
             }
+            ul {
+              margin-top: 0.3em;
+              margin-bottom: 0.3em;
+            }
             #wrapper {
                 position: absolute;
                 top: 0;
@@ -73,6 +77,8 @@
                 color: #555;
                 display: inline-block;
                 width: 100%;
+                padding-top: 10px;
+                padding-bottom: 10px;
             }
             a.text-links.icon, a.text-links.icon:visited {
                 text-decoration: none;
@@ -86,14 +92,21 @@
                 font-family: "Lato-Medium";
                 font-size: 40px;
                 width: 575px;
-                height: 231px;
+                height: 5em;
                 display: inline-block;
                 vertical-align: top;
                 position: relative;
             }
+            #subname-wrapper {
+                position: absolute;
+                top: calc(50% - 15px);
+                font-family: "Lato-Light", sans-serif;
+                font-size: 22px;
+                padding-left: 15px;
+            }
             #name {
                 position: absolute;
-                top: calc(50% - 55px);
+                top: calc(50% - 70px);
                 padding-left: 15px;
             }
             .button {
@@ -109,7 +122,7 @@
                 padding: 7px;
             }
             #contact-button {
-                width: 150px;
+                width: 120px;
             }
             #view-projects-button {
                 width: 240px;
@@ -247,45 +260,76 @@
                         <div id="name">
                             Raphael Gontijo Lopes
                         </div>
+                        <div id="subname-wrapper">
+                          <boldish>AI Resident</boldish> at Google Brain<br/>
+                          Made in Brazil; B.S. in Computer Science at Georgia Tech
+                        </div>
                     </div>
 
+                    <div id="icons" align="center">
+                        <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
+                            <a href="http://twitter.com/iRaphas13" style="text-decoration:none;">
+                                <div id="contact-button" class="button" style="display:inline-block;">
+                                    TWITTER
+                                </div>
+                            </a>
+                        </div>
+                        &nbsp;
+                        <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
+                            <a href="http://github.com/irapha" style="text-decoration:none;">
+                                <div id="contact-button" class="button" style="display:inline-block;">
+                                    GITHUB
+                                </div>
+                            </a>
+                        </div>
+                        &nbsp;
+                        <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
+                            <a href="https://ai.google/research/people/RaphaGontijoLopes" style="text-decoration:none;">
+                                <div id="contact-button" class="button" style="display:inline-block;">
+                                    GOOGLE AI
+                                </div>
+                            </a>
+                        </div>
+                        &nbsp;
+                        <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
+                            <a href="https://scholar.google.com/citations?user=-wpZQY0AAAAJ&hl=en&oi=ao" style="text-decoration:none;">
+                                <div id="contact-button" class="button" style="display:inline-block;">
+                                    SCHOLAR
+                                </div>
+                            </a>
+                        </div>
+                        &nbsp;
+                        <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
+                            <a href="mailto:raphaelgontijolopes@gmail.com" style="text-decoration:none;">
+                                <div id="contact-button" class="button" style="display:inline-block;">
+                                    EMAIL
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <br/>
+                    <br/>
                     <div class="paragraph">
-                      <ul>
-                        <li>
-                          Made in Brazil, Computer Science at Georgia Tech
-                        </li>
-                        <li>
-                          <boldish>Undergraduate Research</boldish> in Machine
-                          Learning<br/>(vision, generative models, sequence
-                          models, adversarial methods)
-                        </li>
-                        <li>
-                          <boldish>President</boldish> of
-                          <a href="https://gtagency.github.io" class="inline-link">The
-                          Agency</a> -- the AI club at GT (see
-                          <a href="#talks" class="inline-link">talks</a>).
-                        </li>
-                        <li>
-                          <boldish>2nd Place</boldish> at the Home Depot Deep
-                          Learning Competition,<br/>(only undergraduate team in
-                          top 5).
-                        </li>
-                        <li>
-                          <boldish>UROP Ambassador</boldish> for undergraduate
-                          research<br/>and winner of $1.5k PURA grant.
-                        </li>
-                      </ul>
                       Past:
                       <ul>
                         <li>
-                          <boldish>Internal Operations Officer</boldish> at The
-                          Agency.
+                          <boldish>President</boldish>, <boldish>Internal
+                          Operations Officer</boldish> of
+                          <a href="https://gtagency.github.io" class="inline-link">The
+                          Agency</a> (see
+                          <a href="#talks" class="inline-link">talks</a>).
                         </li>
                         <li>
                           <boldish>Team lead</boldish> for
                           <a href="http://raphagl.com/projects/bzm" class="inline-link">
                             buzzmobile</a>, The Agency's
                           autonomous vehicle.
+                        </li>
+                        <li>
+                          <boldish>Undergraduate Research</boldish> in Machine
+                          Learning<br/>(vision, generative models, sequence
+                          models, adversarial methods)
                         </li>
                         <li>
                           <boldish>Vice President</boldish> of the
@@ -300,58 +344,12 @@
                       </ul>
                     </div>
 
-                    <br/><br/>
-
-                    <div id="icons" align="center">
-                        <a class="text-links icon" href="http://twitter.com/iRaphas13">
-                            <i class="fa fa-twitter fa-3x"></i>
-                        </a>
-                        &nbsp;
-                        <a class="text-links icon" href="http://facebook.com/raphaelgontijolopes">
-                            <i class="fa fa-facebook-square fa-3x"></i>
-                        </a>
-                        &nbsp;
-                        <a class="text-links icon" href="http://instagram.com/iraphael">
-                            <i class="fa fa-instagram fa-3x"></i>
-                        </a>
-                        &nbsp;
-                        <a class="text-links icon" href="http://br.linkedin.com/in/raphaelgontijolopes/">
-                            <i class="fa fa-linkedin-square fa-3x"></i>
-                        </a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a class="text-links icon" href="http://github.com/irapha">
-                            <i class="fa fa-github fa-3x"></i>
-                        </a>
-                        &nbsp;
-                        <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
-                            <a href="mailto:raphaelgontijolopes@gmail.com" style="text-decoration:none;">
-                                <div id="contact-button" class="button" style="display:inline-block;">
-                                    EMAIL ME
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-
-                    <h1>SKILLS</h1>
-                    <div class="paragraph">
-                        <boldish>Machine Learning</boldish>, Artificial Intelligence, Autonomous Vehicles, Algorithms, Web
-                        <br/>
-                        <boldish>Python</boldish>, Java, Dart, Swift, JavaScript, C
-                        <br/>
-                        <boldish>TensorFlow</boldish>, scikit-learn, NLTK, pybrain, jQuery, Angular, mongoDB
-                        <br/>
-                        English, Portuguese
-                    </div>
-
                     <br/>
 
                     <div class="button-wrapper">
                         <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
                             <a href="RaphaelGontijoLopes.pdf" target="_blank" style="text-decoration:none;">
-                                <div id="contact-button" class="button" style="display:inline-block;">
+                                <div id="contact-button" class="button" style="display:inline-block; width: 150px;">
                                     GET R&Eacute;SUM&Eacute;
                                 </div>
                             </a>
@@ -494,6 +492,22 @@
 
                     <div id="all-jobs">
 
+                        <br/>
+                        <br/>
+                        <div class="project-indented-wrapper">
+                            <div class="project-indented">
+                                <div class="project-image">
+                                    <img src="images/google_ai.png" style="height:100%;" />
+                                </div>
+
+                                <div class="project-desc non-indented">
+                                    <span class="project-title">Google AI Residency - June 2018, Present</span><br/>
+                                    My residency at Google Brain in Mountain View and San Francisco, CA.
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="project">
                             <div class="project-image">
                                 <img src="images/iteam.png" style="height:100%;" />
@@ -608,7 +622,7 @@
                                 Team Lead for an autonomous replica of the
                                 ramblin' wreck, used as a parade float in
                                 Georgia Tech's Homecoming parade. Developed
-                                entirely in ROSpy at <a class="inline-link" href="gtagency.github.io">The Agency</a>.
+                                entirely in ROSpy at <a class="inline-link" href="http://gtagency.github.io">The Agency</a>.
                             </div>
 
                             <div class="project-page-button">
