@@ -129,6 +129,12 @@
                 width: 100%;
                 display:block;
             }
+            .blog-item {
+                height: 93px;
+                width: 100%;
+                display:block;
+                margin-bottom: 25px;
+            }
             .project-indented {
                 height: 188px;
                 width: 100%;
@@ -155,6 +161,15 @@
                 overflow: hidden;
                 font-size: 18px;
             }
+            .blog-item-desc.non-indented {
+                display:inline-block;
+                vertical-align: top;
+                width: 730px;
+                padding-left: 5px;
+                height: 93px;
+                overflow: hidden;
+                font-size: 18px;
+            }
             .project-desc.indented {
                 display:inline-block;
                 vertical-align: top;
@@ -168,10 +183,17 @@
             #all-projects {
                 position:relative;
             }
+            #all-blog-items {
+                position:relative;
+            }
             #all-jobs {
                 position:relative;
             }
             .project-title {
+                font-family: 'Lato-Regular';
+                font-size: 20px;
+            }
+            .blog-title {
                 font-family: 'Lato-Regular';
                 font-size: 20px;
             }
@@ -181,6 +203,22 @@
                 display:inline-block;
                 width: 36px;
                 height:100%;
+            }
+            .blog-page-button {
+                position:relative;
+                vertical-align: top;
+                display:inline-block;
+                width: 36px;
+                height: 93px;
+            }
+            .view-blog {
+                width: 22px;
+                height:23px;
+                border-radius: 23px;
+                margin-left: 5px;
+                margin-top: 26px;
+                line-height: 21px;
+                padding-left:9px;
             }
             .view-project {
                 width: 22px;
@@ -253,128 +291,24 @@
 
                     <br/>
 
-                    <h1>RESEARCH</h1>
+                    <h1>BLOG</h1>
 
-                    <div class="paragraph">
-                        Click on a research project to learn more about it.
-                    </div>
-
-                    <br/>
-
-                    <div id="all-projects">
-                        
-                      <br/>
-                      <br/>
-                        <div class="project-indented-wrapper">
-                            <div class="project-indented">
-                                <div class="project-image">
-                                    <img src="../images/distill_paper.png" style="height:100%;" />
-                                </div>
-
-                                <div class="project-desc non-indented">
-                                    <span class="project-title">Data-free Knowledge Distillation for Deep Neural Networks</span><br/>
-                                    Paper under review at AISTATS 2018 and<br/>
-                                    accepted to NIPS LLD Workshop!<br/>
-                                    Pre-print on <a class="inline-link" href="https://arxiv.org/abs/1710.07535">arxiv</a>. Source code and poster available.
-                                </div>
-
-                                <div class="project-page-button">
-                                    <a href="../research/replayed-distillation" style="text-decoration:none;">
-                                        <div class="button view-project" style="display:inline-block;">
-                                            >
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project">
-                            <div class="project-image">
-                                <img src="../images/bzm_poster.png" style="height:100%;" />
-                            </div>
-
-                            <div class="project-desc non-indented">
-                                <span class="project-title">Buzzmobile - A Reactive Control Autonomous Vehicle</span><br/>
-                                Presented Buzzmobile as a poster at the Robotics Expo in the Microsoft MLADS 2017 Conference.
-                            </div>
-
-                            <div class="project-page-button">
-                                <a href="../research/BuzzmobileAReactiveControlAutonomousVehicle.pdf" style="text-decoration:none;">
-                                    <div class="button view-project" style="display:inline-block;">
-                                        >
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="project-indented-wrapper">
-                            <div class="project-indented">
-                                <div class="project-image">
-                                    <img src="../images/spatialtransf.png" style="height:100%;" />
-                                </div>
-
-                                <div class="project-desc non-indented">
-                                    <span class="project-title">Towards End-to-End Pose Estimation and Transfer</span><br/>
-                                    Undergraduate research oral presentation at
-                                    the GT UROP Undergraduate Research Spring
-                                    2017 <a class="inline-link" href="http://www.undergradresearch.gatech.edu/2017-symposium">Symposium</a>.
-                                </div>
-
-                                <div class="project-page-button">
-                                    <a href="https://docs.google.com/presentation/d/1J6pxIgfKcGfoow1S20pQvi4oJ5z1AQkjEU4UsDeGLqI/edit?usp=sharing" style="text-decoration:none;">
-                                        <div class="button view-project" style="display:inline-block;">
-                                            >
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project">
-                            <div class="project-image">
-                                <img src="../images/speech.png" style="height:100%;" />
-                            </div>
-
-                            <div class="project-desc non-indented">
-                                <span class="project-title">Leveraging Linguistic Structure For Unsupervised Acoustic Modeling</span><br/>
-                                Research poster presented at
-                                <a class="inline-link" href="https://mlatgt.blog/2017/04/13/symposium-spring17/">ML@GT
-                                  Spring 2017 Symposium</a>.
-                            </div>
-
-                            <div class="project-page-button">
-                                <a href="../research/LeveragingLinguisticStructureForUnsupervisedAcousticModeling.jpg" style="text-decoration:none;">
-                                    <div class="button view-project" style="display:inline-block;">
-                                        >
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <h1>TALKS</h1>
-
-                    <div align="center">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/giv8ef_S7w4" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <br/>
-
-                    <div align="center">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DYlHnxfrrZY?rel=0" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <br/>
-                    <br/>
-
-                    <div class="button-wrapper">
-                        <div style="display:inline-block; vertical-align:top; padding-top: 2px;">
-                            <a href="https://gtagency.github.io/lectures_by/raphael" style="text-decoration:none;">
-                                <div  class="button" id="view-projects-button" style="display:inline-block;">
-                                    VIEW MORE TALKS
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                    <div id="all-blog-items">
+                      <div class="blog-item">
+                          <div class="blog-item-desc non-indented">
+                              <span class="blog-title">
+                                Coming soon!
+                              </span><br/>
+                              Blog under construction<br/>
+                          </div>
+                          <div class="blog-page-button">
+                              <a href="../" style="text-decoration:none;">
+                                  <div class="button view-blog" style="display:inline-block;">
+                                      >
+                                  </div>
+                              </a>
+                          </div>
+                      </div>
 
                     <br/><br/>
 
