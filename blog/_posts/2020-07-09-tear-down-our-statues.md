@@ -35,9 +35,9 @@ protests. Personification becomes person fetishization.
 
 Human beings are flawed. George Washington owned other humans. Treating him as
 a stand-in for "America" risks mistaking criticism of one for the other.
-Persistent veneration of Great Men over ideas leads to (justified) critique of
-narratives. Complete separation of the two may no longer be possible.
-Cancellation is inevitable, albeit more emotionally charged.
+Persistent veneration of Great Men over their ideas leads to (justified)
+critique of narratives. Complete separation of the two may no longer be
+possible. Cancellation is inevitable, albeit more emotionally charged.
 
 What would MLK think of distant future generations cancelling him over eating
 red meat?[^2]. Consider that in a future where _MLK_ is considered greatly
