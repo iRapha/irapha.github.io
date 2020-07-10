@@ -30,8 +30,8 @@ Matter in the past few weeks. Strategic personification can help build
 movements.
 
 Yet eventually, the medium becomes the message. Despite his beliefs that “riots
-are the language of the unheard,” MLK quotes are often used to condemn BLM
-protests. Personification becomes person fetishization. 
+are the language of the unheard,” MLK quotes are often used to condemn Black
+Lives Matter protests. Personification becomes person fetishization. 
 
 Human beings are flawed. George Washington owned other humans. Treating him as
 a stand-in for "America" risks mistaking criticism of one for the other.
