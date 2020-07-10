@@ -24,10 +24,10 @@ we take rationality for granted. Yet, as phenomenology slowly enters the
 cultural zeitgeist, we critique their disregard of it.
 
 It’s easy to conflate these protagonists with ideas themselves, since we center
-stories of movements around people. Without the stories of George Floyd,
-Breonna Taylor, Ahmaud Arbery, and so many others, we may not have seen the
-incredible growth of the BLM movement in the past few weeks. Strategic
-personification can help build movements.
+stories around people. Without George Floyd, Breonna Taylor, Ahmaud Arbery, and
+so many others, we may not have seen the incredible growth of the Black Lives
+Matter in the past few weeks. Strategic personification can help build
+movements.
 
 Yet eventually, the medium becomes the message. Despite his beliefs that “riots
 are the language of the unheard,” MLK quotes are often used to condemn BLM
