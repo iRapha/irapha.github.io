@@ -48,7 +48,7 @@ return racial justice is fully realized.
 One’s willingness to sacrifice their own acknowledgement is the ultimate test
 of their commitment to their ideals. Other’s struggling to reconcile their
 feelings towards one’s great ideas and their flawed personalities is a
-testament to the power of their ideas.
+testament to the power of those ideas.
 
 Ultimately, insisting on creating another Great Man myth is a selfish endeavor.
 Trying to personify our great ideas into ourselves is a net negative -- for the
