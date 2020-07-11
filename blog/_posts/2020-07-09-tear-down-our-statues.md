@@ -56,8 +56,8 @@ world and for the impact of our ideas. No human is timelessly perfect. We will
 all be cancelled. Tear down our statues!
 
 ---
-Thanks to Joshua Morton, Raksha Muthukumar, and Angie Palm for thoughtful
-comments and discussion.
+Thanks to Sam Altman, Joshua Morton, Raksha Muthukumar, Angie Palm and Natalia
+Bilenko for thoughtful comments and discussion.
 
 ---
 [^1]: “Punitive” cancel culture is a story for another time.
