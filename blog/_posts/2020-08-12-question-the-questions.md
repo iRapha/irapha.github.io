@@ -14,10 +14,11 @@ confined to only do things that are Not Bad? Wouldn’t you want to do something
 that’s inherently Good? I don’t know. And I’m struggling to figure that out. 
 
 I’ve come to question whether the only way to Do Good is to do AI for social
-good, or critical AI. Why don’t I just do that? Perhaps it’s the constant
-gaslighting of ML fairness experts who, when not outright dismissed, have to
-endure explanations of “AI bias” by people who decided it was an important
-topic mere months ago.
+good, or critical AI. Why don’t I just do that?
+
+One answer could be the constant gaslighting of ML fairness experts who, when
+not outright dismissed, have to endure explanations of “AI bias” by people who
+decided it was an important topic mere months ago.
 
 Maybe it’s because I’m afraid[^4]. I want to be respected in the research field
 and have a stable career (key for imigration). Doing justice work means being
